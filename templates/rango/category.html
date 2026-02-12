@@ -10,7 +10,7 @@
             {% if pages %}
                 <ul> 
                     {% for page in pages %} 
-                    <li><a href="/rango/category/{{ category.slug }}/add_page">Add Page</a></li> 
+                    <li><a href="{% url 'rango:add_page' category.slug %}">Add Page</a></li> 
                     {% endfor %} 
                 </ul> 
                 {% else %} 
