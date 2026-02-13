@@ -25,7 +25,7 @@ def populate():
         {'title': 'Django Rocks', 
         'url': 'http://www.djangorocks.com/', 
         'views': 50}, 
-        {'title': 'How to Tango',
+        {'title': 'How to Tango with Django',
         'url': 'http://www.tangowithdjango.com/',
         'views': 60} ]
     
